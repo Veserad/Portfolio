@@ -1,10 +1,13 @@
 import { SiReactbootstrap } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
 import { FaBootstrap } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import styles from "./home.module.css";
 import { FaHtml5 } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import Diploma from "../Diplomas";
+import { FaNodeJs } from "react-icons/fa";
+import { SiMongodb } from "react-icons/si";
 import { DiJavascript } from "react-icons/di";
 function Home() {
   return (
@@ -119,13 +122,46 @@ function Home() {
               </a>
             </div>
             <div className={styles.proyecto}>
+              <a href="https://github.com/Veserad/sabrina-back" target="_blank">
+                <img
+                  variant="top"
+                  src="https://i.imgur.com/rtvHnrb.png"
+                  width="200px"
+                />
+                <div className={styles.bellissima}>
+                  <h4>Sabrina BackEnd</h4>
+                  <p>
+                    BackEnd del proyecto Sabrina, hecho con NodeJS, Express y
+                    MongoDB
+                  </p>
+                  <div
+                    style={{ display: "flex", gap: "10px" }}
+                    className={styles.proyectoIconos}
+                  >
+                    <div>
+                      <SiMongodb size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>MongoDB</span>
+                    </div>
+                    <div>
+                      <DiJavascript size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>JavaScript</span>
+                    </div>
+                    <div>
+                      <FaNodeJs size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>NodeJs</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className={styles.proyecto}>
               <a
                 href="https://veserad.github.io/Bellissima-front"
                 target="_blank"
               >
                 <img
                   variant="top"
-                  src="https://i.imgur.com/36tfBWN.png"
+                  src="https://i.imgur.com/JtLt6BG.png"
                   width="200px"
                 />
                 <div className={styles.bellissima}>
@@ -145,6 +181,94 @@ function Home() {
                     <div>
                       <DiJavascript size={30} color="rgba(219, 130, 241, 1)" />
                       <span>JavaScript</span>
+                    </div>
+                    <div>
+                      <FaCss3Alt size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>Css</span>
+                    </div>
+                    <div>
+                      <FaHtml5 size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>Html</span>
+                    </div>
+                    <div>
+                      <FaBootstrap size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>Bootstrap</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className={styles.proyecto}>
+              <a
+                href="https://github.com/Veserad/Bellissima-back"
+                target="_blank"
+              >
+                <img
+                  variant="top"
+                  src="https://i.imgur.com/4uVCqPv.png"
+                  width="200px"
+                />
+                <div className={styles.bellissima}>
+                  <h4>Bellissima BackEnd</h4>
+                  <p>
+                    BackEnd del proyecto Bellissima, hecho con NodeJS, Express y
+                    MySQL
+                  </p>
+                  <div
+                    style={{ display: "flex", gap: "10px" }}
+                    className={styles.proyectoIconos}
+                  >
+                    <div>
+                      <GrMysql size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>MySQL</span>
+                    </div>
+                    <div>
+                      <DiJavascript size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>JavaScript</span>
+                    </div>
+                    <div>
+                      <FaNodeJs size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>NodeJs</span>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+            <div className={styles.proyecto}>
+              <a
+                href="https://www.youtube.com/watch?v=cpb2KCpueTAf"
+                target="_blank"
+              >
+                <img
+                  variant="top"
+                  src="https://i.imgur.com/JtLt6BG.png"
+                  width="200px"
+                />
+                <div className={styles.bellissima}>
+                  <h4>Bellissima Heroku</h4>
+                  <p>
+                    Video del proyecto Bellissima, cuando se encontraba en
+                    funcionamiento en Heroku
+                  </p>
+                  <div
+                    style={{ display: "flex", gap: "10px" }}
+                    className={styles.proyectoIconos}
+                  >
+                    <div>
+                      <FaReact size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>React</span>
+                    </div>
+                    <div>
+                      <GrMysql size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>MySQL</span>
+                    </div>
+                    <div>
+                      <DiJavascript size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>JavaScript</span>
+                    </div>
+                    <div>
+                      <FaNodeJs size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>NodeJs</span>
                     </div>
                     <div>
                       <FaCss3Alt size={30} color="rgba(219, 130, 241, 1)" />
