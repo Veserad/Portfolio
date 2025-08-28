@@ -110,20 +110,39 @@ h4 {
     gap: 10px;
     /* background-color: red; */
   }
+  .diplomas img{
+    width: 100px;
+    max-width: 100%;
+  }
+  .proyecto{
+    display: flex;
+  }
   .proyecto a{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
   }
   .proyecto a img{
     width: 200px;
     max-width: 100%;
   }
-  .proyecto a{
+  .proyectos{
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
   }
-  .diplomas img{
-    width: 100px;
-    max-width: 100%;
+  .bellissima{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+    /* width: 100%; */
+  }
+  .sabrina{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: yellow; */
+    /* width: 100%; */
   }
 }

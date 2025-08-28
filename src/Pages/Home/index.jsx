@@ -73,7 +73,7 @@ function Home() {
             </p>
           </div>
           <div className={styles.proyectos}>
-            <h3>Proyectos ersonales:</h3>
+            <h3>Proyectos personales:</h3>
             <div className={styles.proyecto}>
               <a href="https://veserad.github.io/Sabrina" target="_blank">
                 <img
@@ -81,7 +81,7 @@ function Home() {
                   src="https://i.imgur.com/EQQMpyv.png"
                   width="200px"
                 />
-                <div>
+                <div className={styles.sabrina}>
                   <h4>Sabrina</h4>
                   <p>
                     Tienda online de indumentaria femenina, no funcional, solo a
@@ -128,7 +128,7 @@ function Home() {
                   src="https://i.imgur.com/36tfBWN.png"
                   width="200px"
                 />
-                <div>
+                <div className={styles.bellissima}>
                   <h4>Bellissima</h4>
                   <p>
                     Proyecto final integrador hecho como examen para un curso de
