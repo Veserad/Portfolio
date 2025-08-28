@@ -12,32 +12,32 @@ function Home() {
       <div className={styles.division}>
         <div className={styles.izquierda}>
           <h1>Sergio Ruiz Díaz</h1>
-          <img src="Portfolio/pdfs/perfil.jpg" alt="" width="200px" />
+          <img src="/Portfolio/pdfs/perfil.jpg" alt="" width="200px" />
           <h2>Desarrollador Full Stack</h2>
           <div className={styles.diplomas}>
             {/* <Diploma
               imgSrc="https://i.imgur.com/m8EcDnQ.png"
-              pdfSrc="Portfolio/pdfs/Certificado Angular.pdf"
+              pdfSrc="/Portfolio/pdfs/Certificado Angular.pdf"
               alt="Diploma Angular"
             /> */}
             <Diploma
               imgSrc="https://i.imgur.com/f3pzkKo.png"
-              pdfSrc="Portfolio/pdfs/Certificado ReactJS.pdf"
+              pdfSrc="/Portfolio/pdfs/Certificado ReactJS.pdf"
               alt="Diploma React JS"
             />
             <Diploma
               imgSrc="https://i.imgur.com/JD0zjDs.png"
-              pdfSrc="Portfolio/pdfs/Certificados NodeJs.pdf"
+              pdfSrc="/Portfolio/pdfs/Certificados NodeJs.pdf"
               alt="Diploma NodeJS"
             />
             <Diploma
               imgSrc="https://i.imgur.com/e3Y6Xzd.png"
-              pdfSrc="Portfolio/pdfs/Certificado Professional Full-Stack Developer.pdf"
+              pdfSrc="/Portfolio/pdfs/Certificado Professional Full-Stack Developer.pdf"
               alt="Diploma Professional Full-Stack Developer"
             />
             <Diploma
               imgSrc="https://i.imgur.com/UGvm5MU.png"
-              pdfSrc="Portfolio/pdfs/Certificados full stack con react.pdf"
+              pdfSrc="/Portfolio/pdfs/Certificados full stack con react.pdf"
               alt="Diploma Full Stack con React"
             />
           </div>
