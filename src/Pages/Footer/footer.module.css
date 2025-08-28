@@ -1,0 +1,8 @@
+.contacto{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    /* position: fixed;
+    bottom: 0;
+    right: 25%; */
+}

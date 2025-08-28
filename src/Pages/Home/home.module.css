@@ -1,0 +1,103 @@
+body{
+background: #670bbb;
+background: linear-gradient(359deg,#670bbb 0%, #3a8093 80%);
+background: -webkit-linear-gradient(359deg,#670bbb 0%, #3a8093 80%);
+background: -moz-linear-gradient(359deg,#670bbb 0%, #3a8093 80%);
+}
+h1, h4,h2, h3{
+    color: white;
+}
+p{
+    color: rgb(189, 187, 187);
+    font-size: 20px;
+}
+.proyectos a{
+    text-decoration: none;
+    display: flex;
+}
+.proyecto{
+    padding: 2px;
+}
+.proyecto p,h4{
+    margin: 0;
+}
+.proyecto h4{
+    margin-bottom: 10px;
+}
+.proyecto:hover{
+    filter: brightness(1.1); /* Aumenta un poco el brillo */
+  transform: scale(1.03);  /* Le da un ligero zoom */
+  box-shadow: 0 8px 20px rgba(0,0,0,0.4);
+  transform: translateY(-2px); /* Le da un ligero “flotado” */
+}
+.proyectoIconos div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.proyectoIconos span{
+    color: rgba(219, 130, 241, 1);
+}
+
+                                                       /* computadoras*/
+@media (min-width: 1024px){
+.division{
+    /* background-color: green; */
+    display: flex;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+.izquierda{
+    width: 50%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.derecha{
+    /* background-color: yellow; */
+    justify-content: center;
+    width: 50%;
+}
+.presentacion{
+    width: 80%;
+    justify-content: center;
+}
+.izquierda img{
+    border-radius: 200px 200px 200px 200px;
+-webkit-border-radius: 200px 200px 200px 200px;
+-moz-border-radius: 200px 200px 200px 200px;
+}
+.diplomas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 70%;
+    justify-content: center;
+}
+}
+
+                                                       /* Mobiles*/
+@media (max-width: 1023px) {
+.izquierda{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.diplomas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 80%;
+    justify-content: center;
+}
+.derecha{
+    width: 100%;
+    /* background-color: red; */
+}
+.presentacion{
+}
+}
