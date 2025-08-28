@@ -9,6 +9,14 @@ import { DiJavascript } from "react-icons/di";
 function Home() {
   return (
     <>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Meow+Script&family=Pacifico&display=swap');
+      </style>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Lovers+Quarrel&family=Meow+Script&family=Pacifico&family=Sriracha&display=swap');
+      </style>
       <div className={styles.division}>
         <div className={styles.izquierda}>
           <h1>Sergio Ruiz Díaz</h1>
@@ -65,7 +73,7 @@ function Home() {
             </p>
           </div>
           <div className={styles.proyectos}>
-            <h3>A continuación dejo algunos de mis proyectos personales:</h3>
+            <h3>Proyectos ersonales:</h3>
             <div className={styles.proyecto}>
               <a href="https://veserad.github.io/Sabrina" target="_blank">
                 <img

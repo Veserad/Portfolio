@@ -11,9 +11,25 @@ h2,
 h3 {
   color: white;
 }
+.izquierda h1{
+  font-family: "Meow Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+}
+h2,h3,h4{
+      /* font-family: "Pacifico", cursive;
+  font-weight: 400;
+  font-style: normal; */
+}
+p{
+  font-family: "Sriracha", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
 p {
   color: rgb(189, 187, 187);
-  font-size: 20px;
+  font-size: 18px;
 }
 .proyectos a {
   text-decoration: none;
