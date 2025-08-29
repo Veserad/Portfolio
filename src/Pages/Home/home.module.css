@@ -139,6 +139,8 @@ h4 {
   }
   .proyecto a{
     display: flex;
+    /* /* flex-direction: column; */
+    /* align-items: center;  */
     flex-wrap: wrap;
     justify-content: center;
   }
@@ -154,6 +156,8 @@ h4 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    /* text-align: center; */
   }
   .proyectoIconos{
     display: flex;

@@ -132,8 +132,8 @@ function Home() {
                 <div className={styles.bellissima}>
                   <h4>Sabrina BackEnd</h4>
                   <p>
-                    BackEnd del proyecto Sabrina, hecho con NodeJS, Express y
-                    MongoDB
+                    BackEnd del proyecto Sabrina, que incluye autenticación y
+                    gestión de usuarios.
                   </p>
                   <div
                     style={{ display: "flex", gap: "10px" }}
@@ -211,7 +211,10 @@ function Home() {
                 />
                 <div className={styles.bellissima}>
                   <h4>Bellissima BackEnd</h4>
-                  <p>BackEnd del proyecto Bellissima</p>
+                  <p>
+                    BackEnd del proyecto Bellissima, que incluye formulario de
+                    mensajería
+                  </p>
                   <div
                     style={{ display: "flex", gap: "10px" }}
                     className={styles.proyectoIconos}
