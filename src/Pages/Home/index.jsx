@@ -1,4 +1,5 @@
 import { SiReactbootstrap } from "react-icons/si";
+import { SiMailtrap } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { FaBootstrap } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
@@ -210,10 +211,7 @@ function Home() {
                 />
                 <div className={styles.bellissima}>
                   <h4>Bellissima BackEnd</h4>
-                  <p>
-                    BackEnd del proyecto Bellissima, hecho con NodeJS, Express y
-                    MySQL
-                  </p>
+                  <p>BackEnd del proyecto Bellissima</p>
                   <div
                     style={{ display: "flex", gap: "10px" }}
                     className={styles.proyectoIconos}
@@ -229,6 +227,10 @@ function Home() {
                     <div>
                       <FaNodeJs size={30} color="rgba(219, 130, 241, 1)" />
                       <span>NodeJs</span>
+                    </div>
+                    <div>
+                      <SiMailtrap size={30} color="rgba(219, 130, 241, 1)" />
+                      <span>Mailtrap</span>
                     </div>
                   </div>
                 </div>
