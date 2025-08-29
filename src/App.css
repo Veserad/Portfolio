@@ -40,6 +40,10 @@
 .read-the-docs {
   color: #888;
 } */
-html, body {
+/* html, body {
   overflow-x: hidden;
+  max-width: 100%;
+} */
+* {
+  box-sizing: border-box;
 }
