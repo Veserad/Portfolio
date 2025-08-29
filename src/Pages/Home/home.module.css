@@ -36,6 +36,12 @@ p {
   padding: 2px;
   margin-top: 10px;
   margin-bottom: 10px;
+    /* background: linear-gradient(135deg, #6b73ff, #000dff); */
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 .proyecto p,
 h4 {
@@ -57,8 +63,12 @@ h4 {
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
   transform: translateY(-2px); /* Le da un ligero “flotado” */
 }
+.proyecto:hover h4{
+  color: rgba(219, 130, 241, 1);
+}
 .proyectoIconos{
     margin-left: 10px;
+    justify-content: center;
 }
 .proyectoIconos div {
   display: flex;

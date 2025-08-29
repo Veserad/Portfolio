@@ -1,4 +1,5 @@
 import { SiReactbootstrap } from "react-icons/si";
+import { MdOutlineArrowOutward } from "react-icons/md";
 import { SiMailtrap } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { FaBootstrap } from "react-icons/fa";
@@ -85,6 +86,7 @@ function Home() {
                   src="https://i.imgur.com/EQQMpyv.png"
                   width="200px"
                 />
+                {/* <MdOutlineArrowOutward size={50} /> */}
                 <div className={styles.sabrina}>
                   <h4>Sabrina</h4>
                   <p>
